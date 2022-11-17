@@ -1,0 +1,144 @@
+* {
+  text-decoration: none;
+  font-family: "Noto Sans KR", sans-serif;
+  scroll-behavior: smooth;
+}
+
+html body {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.business-contents {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+
+#content-ecoce {
+  position: relative;
+  z-index: 10;
+  max-width: 1440px;
+  width: 85vw;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+.ecoce-wrap {
+  display: flex;
+  flex-direction: column;
+  /* 수직 정렬 */
+  align-items: center;
+  /* 확인 */
+  flex-wrap: nowrap;
+  /* border: 1px solid red; */
+}
+.ecoce-title p:nth-child(1) {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 58px;
+  text-align: left;
+}
+.ecoce-title p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #c8c8c8;
+}
+.ecoce-left {
+  width: 50%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ecoce-left .ecoce-left-img {
+  margin-top: 54px;
+  background: url(../img/toco-img3/business-ECOCE-screen2.png) no-repeat;
+  background-size: 70%;
+}
+.ecoce-left .ecoce-left-img img {
+  width: 40%;
+  padding: 8% 0 0 35%;
+  /* 패팅값을 %로 줘야 .ecoce-left 영역을 벗어나지 않음 */
+  /* padding: 30px 0 0 240px; */
+}
+
+.ecoce-right {
+  width: 50%;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  /* 확인 */
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.ecoce-right p {
+  text-align: center;
+}
+.ecoce-right p:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 44px;
+  margin-bottom: 18%;
+  margin-top: 45px;
+}
+.ecoce-right p:nth-child(3) {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-top: 5%;
+}
+.ecoce-right .ecoce-logo {
+  width: 65%;
+}
+.ecoce-right .ecoce-appstore {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15%;
+}
+.ecoce-right .ecoce-appstore .google-store {
+  width: 188px;
+  height: 57px;
+  background-color: #1e1e1e;
+  border-radius: 30px;
+  margin-left: 6%;
+}
+.ecoce-right .ecoce-appstore .google-store a {
+  width: 188px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ecoce-right .ecoce-appstore .google-store img {
+  width: 31px;
+  height: 35px;
+  color: #fff;
+  word-break: keep-all;
+  padding: 11px 12px 11px 20px;
+}
+.ecoce-right .ecoce-appstore .google-store span {
+  display: block;
+  width: 130px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #fff;
+  word-break: keep-all;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.mobile-ecoce {
+  display: none;
+}
+.phone-ecoce-text {
+  display: none;
+}

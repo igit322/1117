@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* ----- 공통 ----- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  max-width: 1400px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:link {
+  color: #2e2e2e;
+}
+a:visited {
+  color: #2e2e2e;
+}
+a:active {
+  color: #2e2e2e;
+}
+
+
+/* font-size */
+:root {
+  --big: 40px;
+  --menu: 20px;
+  --subtitle: 18px;
+  --medium: 16px;
+}
+
+/* Color */
+
+:root {
+  --white: #ffffff;
+  --gray: #cfcfcf;
+  --dark: #000000;
+  --blue: #184b9f;
+  --footer-background: #e9e9e9;
+  --footer-txt: #9e9e9e;
+  --color-clear: rgba(255, 255, 255, 0);
+  --inner-menu: #184c9fdc;
+}
+
+/* a Color */
+
+
+
+
+.content-ecoce{
+  margin-top: 70px;
+}
+
+.ecoce-right p{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.ecoce-right .eco{
+  margin-bottom: 50px;
+}
+
+.ecoce-appstore{
+  width: 188px;
+  height: 57px;
+  background-color: #1e1e1e;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.ecoce-appstore .google-store a{
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.ecoce-logo{
+  width: 40%;
+  height: 40%;
+}
+
+
+/* 반응형웹 */
+
+/* @media screen and (max-width: 500px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+} */
+
+@media screen and (max-width: 250px) {
+  .ecoce-logo{
+    width: 60%;
+    height: 60%;
+  }
+}
