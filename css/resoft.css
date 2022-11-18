@@ -22,8 +22,6 @@ ul {
   padding: 0;
 }
 
-
-
 a {
   display: inline-block;
   text-decoration: none;
@@ -38,7 +36,6 @@ a:visited {
 a:active {
   color: #2e2e2e;
 }
-
 
 /* font-size */
 :root {
@@ -63,24 +60,21 @@ a:active {
 
 /* a Color */
 
-
-
-
-.content-ecoce{
+.content-ecoce {
   margin-top: 70px;
 }
 
-.ecoce-right p{
+.ecoce-right p {
   font-size: 2rem;
   font-weight: bold;
   margin: 30px;
 }
 
-.ecoce-right .eco{
-  margin-bottom: 50px;
+.ecoce-right .eco2 {
+  color: rgb(216, 74, 27);
 }
 
-.ecoce-appstore{
+.ecoce-appstore {
   width: 188px;
   height: 57px;
   background-color: #1e1e1e;
@@ -88,18 +82,17 @@ a:active {
   margin: 0 auto;
 }
 
-.ecoce-appstore .google-store a{
+.ecoce-appstore .google-store a {
   color: rgb(255, 255, 255);
   margin-top: 10px;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.ecoce-logo{
+.ecoce-logo {
   width: 40%;
   height: 40%;
 }
-
 
 /* 반응형웹 */
 
@@ -112,7 +105,7 @@ a:active {
 } */
 
 @media screen and (max-width: 250px) {
-  .ecoce-logo{
+  .ecoce-logo {
     width: 60%;
     height: 60%;
   }
